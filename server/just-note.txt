@@ -1,0 +1,24 @@
+packages - fastapi, aiopg, aio-pika, SQLAlchemy, alembic
+FastAPI: A high-performance web framework for building APIs with Python 3.7+ that supports asynchronous code, data validation, and automatic documentation generation.
+
+aiopg: An asynchronous PostgreSQL client for Python that allows non-blocking database interactions, enabling better performance in concurrent applications.
+
+aio-pika: An asynchronous RabbitMQ client for Python, used for sending and receiving messages in real-time, supporting message queuing and routing in distributed systems.
+
+SQLAlchemy: A powerful ORM (Object-Relational Mapping) library for Python that simplifies database interaction by allowing Python objects to represent database tables and records.
+
+Alembic: A lightweight database migration tool for SQLAlchemy, allowing developers to manage and version control schema changes in their databases.
+
+DEBUG=1
+RABBITMQ_PORT=5677
+RABBITMQ_UI_PORT=5678
+RABBITMQ_USER=csms
+RABBITMQ_PW=csms
+
+WS_SERVER_PORT=3030
+HTTP_SERVER_PORT=8787
+
+POSTGRES_DB=csms
+POSTGRES_PASSWORD=csms
+POSTGRES_PORT=5432
+POSTGRES_USER=csms
