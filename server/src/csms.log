@@ -1,0 +1,24 @@
+2024-11-03T10:17:48.135227+0000 - INFO - New connection from /
+2024-11-03T10:18:02.537233+0000 - INFO - New connection from /close
+2024-11-03T10:18:16.922617+0000 - INFO - New connection from /test
+2024-11-03T12:35:00.761213+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:35:27.365163+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:35:27.366946+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:36:04.966860+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:36:04.970576+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:38:06.654561+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:38:06.656194+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:42:18.049630+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:42:18.051602+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:42:51.250581+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:42:51.252193+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:42:51.374919+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:42:51.376262+0000 - INFO - Got channel for queue: cs_events
+2024-11-03T12:43:44.548168+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-03T12:44:42.509619+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:44:42.511622+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-03T12:44:42.754670+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-03T12:44:42.756152+0000 - INFO - Got channel for queue: cs_events
+2024-11-03T12:44:51.843642+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-03T12:44:51.856574+0000 - INFO - Got channel for queue: cs_events
+2024-11-03T12:44:51.867137+0000 - INFO - Got event from charge point node (event={"event": "new_connection", "charge_point_id": "test"})
