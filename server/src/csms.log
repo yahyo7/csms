@@ -22,3 +22,125 @@
 2024-11-03T12:44:51.843642+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
 2024-11-03T12:44:51.856574+0000 - INFO - Got channel for queue: cs_events
 2024-11-03T12:44:51.867137+0000 - INFO - Got event from charge point node (event={"event": "new_connection", "charge_point_id": "test"})
+2024-11-04T00:14:53.458445+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:14:53.460897+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T00:14:53.986599+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:14:53.989069+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:19:10.551955+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:19:10.554805+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:20:19.288570+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T00:20:19.291896+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:20:19.293861+0000 - INFO - Got event from charge point node (event={"event": "new_connection", "charge_point_id": "test"})
+2024-11-04T00:23:07.242496+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:23:07.245207+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:23:15.033679+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T00:23:15.035878+0000 - INFO - Got event from charge point node (event={"event": "new_connection", "charge_point_id": "test"})
+2024-11-04T00:23:37.090429+0000 - INFO - New charge point connection from path=/test2, charge_point_id=test2
+2024-11-04T00:23:37.092652+0000 - INFO - Got event from charge point node (event={"event": "new_connection", "charge_point_id": "test2"})
+2024-11-04T00:31:09.587586+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:31:09.590611+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:35:39.143111+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:35:39.145261+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:35:51.873901+0000 - INFO - New charge point connection from path=/test3, charge_point_id=test3
+2024-11-04T00:40:15.690461+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:40:15.693007+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:40:25.862721+0000 - INFO - New charge point connection from path=/test3, charge_point_id=test3
+2024-11-04T00:40:25.865370+0000 - INFO - Got event from charge point node (data={'event': 'new_connection', 'charge_point_id': 'test3'})
+2024-11-04T00:41:23.696449+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:41:23.698747+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:41:32.813573+0000 - INFO - New charge point connection from path=/test3, charge_point_id=test3
+2024-11-04T00:41:32.815923+0000 - INFO - Got event from charge point node (data={'event': 'new_connection', 'charge_point_id': 'test3'})
+2024-11-04T00:41:32.816481+0000 - INFO - Got event from charge point node (event=charge_point_id='test3' name=<EventName.NEW_CONNECTION: 'new_connection'>)
+2024-11-04T00:41:49.298693+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:41:49.302075+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:41:59.702854+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T00:41:59.705157+0000 - INFO - Got event from charge point node (event=charge_point_id='test4' name=<EventName.NEW_CONNECTION: 'new_connection'>)
+2024-11-04T00:45:03.940045+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:45:03.942738+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:45:09.721065+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:45:09.723381+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:45:16.694605+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T00:46:37.975291+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:46:37.977927+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:46:46.580863+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T00:46:46.583744+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> charge_point_id='test4')
+2024-11-04T00:51:52.163649+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:51:52.166078+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:54:29.240412+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:54:29.242741+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:56:58.544228+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:56:58.546785+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T00:59:09.393725+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T00:59:09.396127+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:00:41.071676+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:00:41.074047+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:08:10.469778+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:08:10.472351+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:15:13.888991+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:15:13.891530+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T01:17:45.484812+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:17:45.488320+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T01:21:38.339901+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:21:38.342312+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T01:22:00.144058+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:22:00.147288+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:25:59.979396+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:25:59.982351+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:33:28.061801+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:33:28.064246+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:34:18.212900+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:34:18.215245+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:43:14.399254+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:43:14.401738+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:45:03.715556+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:45:03.720377+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:45:53.534075+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:45:53.536076+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:47:38.147352+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T01:47:38.151903+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:48:09.878240+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T01:49:38.885047+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:49:38.887117+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T01:49:39.244099+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:49:39.246388+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:50:10.392966+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T01:50:10.396380+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:50:10.398253+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test')
+2024-11-04T01:50:10.407120+0000 - INFO - Updating charge point status (charge_point_id=test, status=available)
+2024-11-04T01:51:15.263928+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T01:51:15.266923+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test')
+2024-11-04T01:51:15.267334+0000 - INFO - Updating charge point status (charge_point_id=test, status=available)
+2024-11-04T01:52:43.156448+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:52:43.158518+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T01:53:27.969970+0000 - INFO - New charge point connection from path=/test, charge_point_id=test
+2024-11-04T01:53:27.974232+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test')
+2024-11-04T01:53:27.974900+0000 - INFO - Updating charge point status (charge_point_id=test, status=available)
+2024-11-04T01:58:12.634437+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T01:58:12.637093+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T02:02:00.656423+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T02:02:00.659303+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T02:04:52.081944+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T02:04:52.084373+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T02:05:53.012182+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T02:05:53.015343+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test4')
+2024-11-04T02:05:53.015925+0000 - INFO - Updating charge point status (charge_point_id=test4, status=available)
+2024-11-04T02:12:19.618302+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T02:12:19.620924+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T02:12:29.457124+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T02:12:29.459951+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test4')
+2024-11-04T02:12:29.460417+0000 - INFO - Updating charge point status (charge_point_id=test4, status=available)
+2024-11-04T02:20:43.684863+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T02:20:43.688189+0000 - INFO - Got channel for queue: cs_events
+2024-11-04T02:20:46.597870+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T02:20:46.600713+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test4')
+2024-11-04T02:20:46.601116+0000 - INFO - Updating charge point status (charge_point_id=test4, status=available)
+2024-11-04T02:22:06.054117+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T02:22:06.056239+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test4')
+2024-11-04T02:22:06.056754+0000 - INFO - Updating charge point status (charge_point_id=test4, status=available)
+2024-11-04T02:22:12.165967+0000 - INFO - New charge point connection from path=/test4, charge_point_id=test4
+2024-11-04T02:22:12.167883+0000 - INFO - Got event from charge point node (event=name=<EventName.NEW_CONNECTION: 'new_connection'> queue='cs_events' priority=10 charge_point_id='test4')
+2024-11-04T02:22:12.168351+0000 - INFO - Updating charge point status (charge_point_id=test4, status=available)
+2024-11-04T04:10:43.240894+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T04:10:43.244153+0000 - INFO - Got channel for queue: cs_tasks
+2024-11-04T04:10:43.575128+0000 - INFO - Got Queue connection for user: csms on host: csms-rabbitmq on port: 5672
+2024-11-04T04:10:43.577500+0000 - INFO - Got channel for queue: cs_events
